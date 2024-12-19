@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title >Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+	
+    <form id="registrationForm">
+        <label>First Name:</label>
+        <input type="text" id="firstName" required><br>
+
+        <label>Last Name:</label>
+        <input type="text" id="lastName" required>
+
+        <label>Gender:</label>
+        <div  id="genderGroup"></div><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" id="dob" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" required><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword" required><br>
+
+        <label>Phone Number:</label>
+        <input type="text" id="phoneNumber" required>
+
+        <label>Address:</label>
+        <textarea id="address" rows="3"></textarea>
+
+        <label>State:</label>
+        <select id="state" required>
+        </select><br>
+
+        <label>City:</label>
+        <select id="city" required>
+        </select><br>
+
+        <label>Hobbies:</label>
+        <div id="hobbyGroup"></div>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+<div id="errorMessage" style="color:red"></div>
+    <h2>Registered Students</h2>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>Date of Birth</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+		
+		</tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

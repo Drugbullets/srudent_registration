@@ -1,0 +1,104 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: linear-gradient(to right, maroon, blue);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow:  10px ;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button[type="reset"] {
+    background-color:  blue;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px ;
+    background-color: lightblue;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: lightblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+#genderGroup, #hobbyGroup {
+            display: flex;
+            gap: 20px; /* Space between each option */
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+        #genderGroup div, #hobbyGroup div {
+            display: inline-block;
+            white-space: nowrap;
+        }
+        form label {
+            display: block;
+            margin: 10px 0;
+        }
